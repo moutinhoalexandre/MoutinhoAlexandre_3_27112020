@@ -1,4 +1,6 @@
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 html,
 body,
 p,
@@ -79,5 +81,8 @@ td:not([align]),
 th:not([align]) {
   text-align: left;
 }
+
+/* Police Shrikhand*/
+/* Police Roboto*/
 
 /*# sourceMappingURL=style.css.map */
