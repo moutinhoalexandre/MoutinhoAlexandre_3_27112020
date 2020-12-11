@@ -1,0 +1,22 @@
+{
+  "name": "moutinhoalexandre_3_27112020",
+  "version": "1.0.0",
+  "description": "OhMyFood",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:public/css/style.css",
+    "prefix":"postcss ./public/style.css --use autoprefixer -d ./public/css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moutinhoalexandre/MoutinhoAlexandre_3_27112020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moutinhoalexandre/MoutinhoAlexandre_3_27112020/issues",
+    "browserlist": "last 4 version"
+
+  },
+  "homepage": "https://github.com/moutinhoalexandre/MoutinhoAlexandre_3_27112020#readme"
+}
