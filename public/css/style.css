@@ -1,6 +1,6 @@
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 html,
 body,
 p,
@@ -84,5 +84,59 @@ th:not([align]) {
 
 /* Police Shrikhand*/
 /* Police Roboto*/
+/*header*/
+.header {
+  width: auto;
+  text-align: center;
+  background-color: #EFEFEF;
+  font-family: "roboto";
+  padding-bottom: 30px;
+}
+.header__h1 {
+  font-family: "shrikhand";
+  font-size: 1.9rem;
+  padding-top: 14px;
+  padding-bottom: 5px;
+  background-color: white;
+}
+.header__location {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #EAEAEA;
+}
+.header__location--input {
+  border: none;
+  background-color: #EAEAEA;
+  padding-left: 14px;
+}
+.header__location--input::placeholder {
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0rem;
+  opacity: 0.7;
+}
+.header__h2 {
+  padding-left: 58px;
+  padding-right: 73px;
+  padding-top: 39px;
+  background-color: #EFEFEF;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.header__p {
+  font-size: 1.1rem;
+  font-weight: 300;
+  padding-top: 12px;
+}
+.header__btn {
+  display: block;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(#FF79DA, #9356DC);
+  margin: 30px 80px;
+  padding: 15px;
+  border-radius: 30px;
+  background-color: #EFEFEF;
+}
 
 /*# sourceMappingURL=style.css.map */

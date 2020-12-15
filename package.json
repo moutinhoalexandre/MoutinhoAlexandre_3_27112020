@@ -2,7 +2,7 @@
   "name": "moutinhoalexandre_3_27112020",
   "version": "1.0.0",
   "description": "OhMyFood",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:public/css/style.css",
     "prefix":"postcss ./public/style.css --use autoprefixer -d ./public/css/prefixed/"
