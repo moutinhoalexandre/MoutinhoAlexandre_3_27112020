@@ -100,19 +100,26 @@ th:not([align]) {
   background-color: white;
 }
 .header__location {
-  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 13px;
   padding-bottom: 15px;
   background-color: #EAEAEA;
+  box-shadow: inset 0px 3px 5px -2px grey;
 }
 .header__location--input {
+  width: 40%;
   border: none;
   background-color: #EAEAEA;
   padding-left: 14px;
+  opacity: 1;
+  font-size: 1rem;
+  font-weight: bold;
 }
 .header__location--input::placeholder {
   font-size: 1rem;
   font-weight: bold;
-  letter-spacing: 0rem;
   opacity: 0.7;
 }
 .header__h2 {
@@ -137,6 +144,10 @@ th:not([align]) {
   padding: 15px;
   border-radius: 30px;
   background-color: #EFEFEF;
+  box-shadow: 2px 5px 15px 0px grey;
+}
+.header__btn:hover {
+  opacity: 0.7;
 }
 
 /*# sourceMappingURL=style.css.map */
