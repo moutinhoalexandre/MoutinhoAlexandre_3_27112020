@@ -1,0 +1,21 @@
+.nav{
+    font-family: 'roboto';
+    width: auto ;
+    padding-top: 30px;
+    padding-left: 19px;
+    &__h2{
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+    &__ul{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        &--li{
+            background-color: $light_ground_color ;
+        }
+    }
+}

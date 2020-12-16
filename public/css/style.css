@@ -88,6 +88,7 @@ th:not([align]) {
 .header {
   width: auto;
   text-align: center;
+  align-items: center;
   background-color: #EFEFEF;
   font-family: "roboto";
   padding-bottom: 30px;
@@ -109,6 +110,7 @@ th:not([align]) {
   box-shadow: inset 0px 3px 5px -2px grey;
 }
 .header__location--input {
+  max-width: 200px;
   width: 40%;
   border: none;
   background-color: #EAEAEA;
@@ -126,7 +128,7 @@ th:not([align]) {
   padding-left: 58px;
   padding-right: 73px;
   padding-top: 39px;
-  background-color: #EFEFEF;
+  background-color: #EAEAEA;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -136,9 +138,10 @@ th:not([align]) {
   padding-top: 12px;
 }
 .header__btn {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   color: white;
+  max-width: 450px;
   background: linear-gradient(#FF79DA, #9356DC);
   margin: 30px 80px;
   padding: 15px;
@@ -148,6 +151,28 @@ th:not([align]) {
 }
 .header__btn:hover {
   opacity: 0.7;
+}
+
+.nav {
+  font-family: "roboto";
+  width: auto;
+  padding-top: 30px;
+  padding-left: 19px;
+}
+.nav__h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.nav__ul {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.nav__ul--li {
+  background-color: #EFEFEF;
 }
 
 /*# sourceMappingURL=style.css.map */
