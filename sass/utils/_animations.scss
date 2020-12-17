@@ -14,9 +14,7 @@
             -6px 0 0 #FF79DA,
             0 6px 0 #99E2D0,
             6px 0 0 #9356dc;
-        
     }
-
 }
 
 @keyframes spinning {
@@ -30,10 +28,6 @@
 }
 
 @keyframes visibility-filter {
-    // 0% {
-    //     opacity: 0;
-    // }
-
     0% {
         visibility: visible;
         opacity: 0.6;
@@ -49,6 +43,7 @@
         opacity: 0;
     }
 }
+
 /*end spinner*/
 
 /*Heart animation*/
@@ -74,15 +69,18 @@
     -webkit-text-stroke: 2px white;
     font-size: 2em;
     color: black;
-    &:hover{
+
+    &:hover {
         background: linear-gradient(#FF79DA, #9356DC);
         background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke: 0px white;
-        >.full-heart{
+
+        >.full-heart {
             opacity: 1;
             transform: scale(1);
         }
     }
 }
+
 /*end heart animation*/

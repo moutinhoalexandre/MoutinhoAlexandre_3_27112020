@@ -1,5 +1,5 @@
 /*spinner*/
-.filter{
+.filter {
     background-color: #dbd9d9;
     opacity: 0.6;
     position: fixed;
@@ -9,17 +9,19 @@
     left: 0;
     animation: visibility-filter 3s linear 1 forwards;
 }
+
 .spinner {
     position: fixed;
     top: 40%;
     left: 50%;
-    transform: translate(-50%,-40%);
+    transform: translate(-50%, -40%);
     transition: transform 0.4s cubic-bezier(0.23, 1.83, 0.42, 1.19);
-    &__circle{
+
+    &__circle {
         width: 25vw;
         height: 25vw;
         border-radius: 50%;
-        animation:  3s 0s linear  alternate alternatecolor, 3s 0s linear  spinning;
+        animation: 3s 0s linear alternate alternatecolor, 3s 0s linear spinning;
         padding-top: 30vw;
     }
 }
@@ -104,5 +106,29 @@
         }
 
 
+    }
+    &__top{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-top: 12px;
+        
+        background-color:white ;
+        &__arrow{
+            padding-left: 23px;
+            text-align: left;
+            font-size: 1.1rem;
+            width: 23%;
+        }
+        &__logo{
+            width: 47%;
+            height: 50px;
+        }
+        &__img{
+            width: 100%;
+            height: 20rem;
+            margin-bottom: -4rem;
+        }
     }
 }
