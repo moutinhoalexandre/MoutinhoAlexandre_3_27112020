@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="shortcut icon" type="image/png" href="./public/img/logo/Favico.png" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"/>
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
     <title>OhMyFood</title>
 </head>
+
 <body>
 
-    <!-- header -->
+    <!--pinner-->
+    <div class="contenair">
+        <div class="spinner">
+            <div class="spinner_circle"></div>
+        </div>
+    </div>
+    <!--end spinner-->
 
+    <!-- header -->
     <header class="header">
         <h1 class="header__h1">ohmyfood</h1>
         <div class="header__location">
-            <i class="fas fa-map-marker-alt"></i><input class="header__location--input" type="text" placeholder="Paris,Belleville" name="searchfield">
+            <i class="fas fa-map-marker-alt"></i><input class="header__location--input" type="text"
+                placeholder="Paris,Belleville" name="searchfield">
         </div>
-        <h2 class="header__h2" >Réservez le menu qui vous convient</h2>
+        <h2 class="header__h2">Réservez le menu qui vous convient</h2>
         <p class="header__p">Découvrez des restaurants d'exception, sélectionnées par nos soins</p>
         <a class="header__btn" href="#restaurants">Explorer nos restaurants</a>
     </header>
-
     <!-- header end -->
 
     <!-- nav -->
@@ -65,13 +74,14 @@
         <a class="article_card" href="">
             <figure class="article__figure">
                 <span class="article__figure--new">Nouveau</span>
-                <img class="article__figure__img" src="public/img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="">
+                <img class="article__figure__img" src="public/img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                    alt="">
                 <figcaption class="article__figcaption">
                     <h3 class="article__figcaption__h3">La palette du goût</h3>
                     <p class="article__figcaption__p">Ménilmontant</p>
                     <div class="article__figcaption__like">
                         <i class="far fa-heart empty-heart">
-                        <i class="fas fa-heart full-heart"></i></i>
+                            <i class="fas fa-heart full-heart"></i></i>
                     </div>
                 </figcaption>
             </figure>
@@ -84,11 +94,11 @@
                 <span class="article__figure--new">Nouveau</span>
                 <img class="article__figure__img" src="public/img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="">
                 <figcaption class="article__figcaption">
-                    <h3 class="article__figcaption__h3">La palette du goût</h3>
-                    <p class="article__figcaption__p">Ménilmontant</p>
+                    <h3 class="article__figcaption__h3">La note enchantée</h3>
+                    <p class="article__figcaption__p">Charonne</p>
                     <div class="article__figcaption__like">
                         <i class="far fa-heart empty-heart">
-                        <i class="fas fa-heart full-heart"></i></i>
+                            <i class="fas fa-heart full-heart"></i></i>
                     </div>
                 </figcaption>
             </figure>
@@ -98,13 +108,14 @@
         <!--card 3-->
         <a class="article_card" href="">
             <figure class="article__figure">
-                <img class="article__figure__img" src="public/img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="">
+                <img class="article__figure__img" src="public/img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+                    alt="">
                 <figcaption class="article__figcaption">
-                    <h3 class="article__figcaption__h3">La palette du goût</h3>
-                    <p class="article__figcaption__p">Ménilmontant</p>
+                    <h3 class="article__figcaption__h3">A la française</h3>
+                    <p class="article__figcaption__p">Cité rouge</p>
                     <div class="article__figcaption__like">
                         <i class="far fa-heart empty-heart">
-                        <i class="fas fa-heart full-heart"></i></i>
+                            <i class="fas fa-heart full-heart"></i></i>
                     </div>
                 </figcaption>
             </figure>
@@ -114,18 +125,43 @@
         <!--card 4-->
         <a class="article_card" href="">
             <figure class="article__figure">
-                <img class="article__figure__img" src="public/img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="">
+                <img class="article__figure__img"
+                    src="public/img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="">
                 <figcaption class="article__figcaption">
-                    <h3 class="article__figcaption__h3">La palette du goût</h3>
-                    <p class="article__figcaption__p">Ménilmontant</p>
+                    <h3 class="article__figcaption__h3">Le délice des sens</h3>
+                    <p class="article__figcaption__p">Folie-Méricourt</p>
                     <div class="article__figcaption__like">
                         <i class="far fa-heart empty-heart">
-                        <i class="fas fa-heart full-heart"></i></i>
+                            <i class="fas fa-heart full-heart"></i></i>
                     </div>
                 </figcaption>
             </figure>
         </a>
         <!--end card 4-->
-    </article> 
+    </article>
+    <!--end article -->
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="container">
+            <span class="footer__logo">ohmyfood</span>
+            <ul class="footer__list">
+                <li class="footer__list-element">
+                    <a class="footer__link" href="#"><i class="footer__icon fas fa-utensils"></i>Proposer un restaurant</a>
+                </li>
+                <li class="footer__list-element">
+                    <a class="footer__link" href="#"><i class="footer__icon fas fa-hands-helping"></i>Devenir partenaire</a>
+                </li>
+                <li class="footer__list-element">
+                    <a class="footer__link" href="#">Mentions légales</a>
+                </li>
+                <li class="footer__list-element">
+                    <a class="footer__link" href="mailto:contact@ohmyfood.com">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!--end footer-->
 </body>
+
 </html>

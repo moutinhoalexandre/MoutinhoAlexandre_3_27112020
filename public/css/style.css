@@ -1,5 +1,25 @@
+/*spinner*/
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+@keyframes alternatecolor {
+  from {
+    box-shadow: 0 -2px 0 #9356dc, -2px 0 0 #FF79DA, 0 2px 0 #9356dc, 2px 0 0 #99E2D0;
+  }
+  to {
+    box-shadow: 0 -8px 0 #99E2D0, -8px 0 0 #FF79DA, 0 8px 0 #99E2D0, 8px 0 0 #9356dc;
+    opacity: 0;
+  }
+}
+@keyframes spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(450deg);
+  }
+}
+/*end spinner*/
+/*Heart animation*/
 .full-heart {
   position: absolute;
   z-index: 2;
@@ -32,6 +52,7 @@
   transform: scale(1);
 }
 
+/*end heart animation*/
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
 html,
 body,
@@ -120,6 +141,29 @@ a {
 
 /* Police Shrikhand*/
 /* Police Roboto*/
+/*spinner*/
+.contenair {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.spinner {
+  position: fixed;
+  color: black;
+  cursor: pointer;
+  transition: transform 0.4s cubic-bezier(0.23, 1.83, 0.42, 1.19);
+}
+.spinner__circle {
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  animation: 3s 0s linear alternate alternatecolor, 3s 0s linear spinning;
+  padding-top: 30vw;
+}
+
 /*header*/
 .header {
   width: auto;
@@ -255,6 +299,7 @@ a {
   padding-top: 38px;
   padding-left: 19px;
   padding-right: 19px;
+  padding-bottom: 46px;
   background-color: #EFEFEF;
 }
 .article__h2 {
@@ -306,6 +351,50 @@ a {
 .article__figcaption__like {
   position: absolute;
   right: 3em;
+}
+
+.footer {
+  background-color: #353535;
+}
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  padding-left: 1.4rem;
+  padding-top: 1.2rem;
+}
+.footer__logo {
+  color: white;
+  font-family: "Shrikhand";
+  margin: 0;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.footer__list {
+  list-style: none;
+  font-family: "roboto";
+  padding: 0;
+  margin: 0;
+}
+.footer__list-element {
+  margin: 0.5rem 0;
+}
+.footer__list-element:first-child {
+  margin-top: 0;
+}
+.footer__list-element:last-child {
+  margin-bottom: 0;
+}
+.footer__link {
+  color: white;
+  text-decoration: none;
+}
+.footer__link:hover {
+  text-decoration: underline;
+}
+.footer__icon {
+  width: 1.2rem;
+  margin-right: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

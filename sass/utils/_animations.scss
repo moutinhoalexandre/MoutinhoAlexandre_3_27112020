@@ -1,3 +1,36 @@
+/*spinner*/
+@keyframes alternatecolor {
+    from {
+        box-shadow:
+            0 -2px 0 #9356dc,
+            -2px 0 0 #FF79DA,
+            0 2px 0 #9356dc,
+            2px 0 0 #99E2D0;
+    }
+
+    to {
+        box-shadow:
+            0 -8px 0 #99E2D0,
+            -8px 0 0 #FF79DA,
+            0 8px 0 #99E2D0,
+            8px 0 0 #9356dc;
+        opacity: 0;
+    }
+}
+
+@keyframes spinning {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(450deg);
+    }
+}
+/*end spinner*/
+
+/*Heart animation*/
+
 .full-heart {
     position: absolute;
     z-index: 2;
@@ -30,15 +63,4 @@
         }
     }
 }
-
-
-
-
-
-.empty-heart:hover {
-
-}
-
-.empty-heart:hover .full-heart {
-
-}
+/*end heart animation*/

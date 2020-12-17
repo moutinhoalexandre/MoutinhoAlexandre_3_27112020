@@ -1,3 +1,25 @@
+/*spinner*/
+.contenair{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.spinner {
+    position: fixed;
+    color: black;
+    cursor: pointer;
+    transition: transform 0.4s cubic-bezier(0.23, 1.83, 0.42, 1.19);
+    &__circle{
+        width: 25vw;
+        height: 25vw;
+        border-radius: 50%;
+        animation:  3s 0s linear  alternate alternatecolor, 3s 0s linear  spinning;
+        padding-top: 30vw;
+    }
+}
+
 /*header*/
 
 .header {
