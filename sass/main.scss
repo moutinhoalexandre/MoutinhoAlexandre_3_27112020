@@ -1,12 +1,14 @@
 // @import './vendors';
 
 @import './utils/variables';
+@import './utils/animations';
 
 @import './base/minireset';
 @import './base/typography';
 
 @import './layout/header';
 @import './layout/nav';
+@import './layout/article';
 
 // @import './pages/';
 
