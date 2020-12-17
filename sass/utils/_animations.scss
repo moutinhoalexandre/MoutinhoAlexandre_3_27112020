@@ -1,21 +1,22 @@
 /*spinner*/
 @keyframes alternatecolor {
-    from {
-        box-shadow:
-            0 -2px 0 #9356dc,
-            -2px 0 0 #FF79DA,
-            0 2px 0 #9356dc,
-            2px 0 0 #99E2D0;
-    }
-
     to {
         box-shadow:
-            0 -8px 0 #99E2D0,
-            -8px 0 0 #FF79DA,
-            0 8px 0 #99E2D0,
-            8px 0 0 #9356dc;
-        opacity: 0;
+            0 -6px 0 #9356dc,
+            -6px 0 0 #FF79DA,
+            0 6px 0 #9356dc,
+            6px 0 0 #99E2D0;
     }
+
+    from {
+        box-shadow:
+            0 -6px 0 #99E2D0,
+            -6px 0 0 #FF79DA,
+            0 6px 0 #99E2D0,
+            6px 0 0 #9356dc;
+        
+    }
+
 }
 
 @keyframes spinning {
@@ -25,6 +26,27 @@
 
     to {
         transform: rotate(450deg);
+    }
+}
+
+@keyframes visibility-filter {
+    // 0% {
+    //     opacity: 0;
+    // }
+
+    0% {
+        visibility: visible;
+        opacity: 0.6;
+    }
+
+    99% {
+        visibility: visible;
+        opacity: 0.6;
+    }
+
+    100% {
+        visibility: hidden;
+        opacity: 0;
     }
 }
 /*end spinner*/

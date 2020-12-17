@@ -1,15 +1,19 @@
 /*spinner*/
-.contenair{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+.filter{
+    background-color: #dbd9d9;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation: visibility-filter 3s linear 1 forwards;
 }
 .spinner {
     position: fixed;
-    color: black;
-    cursor: pointer;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-40%);
     transition: transform 0.4s cubic-bezier(0.23, 1.83, 0.42, 1.19);
     &__circle{
         width: 25vw;
