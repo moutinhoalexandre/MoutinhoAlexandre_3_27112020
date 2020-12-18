@@ -105,30 +105,17 @@
 
         }
 
+    }
+
+    &__arrow {
+        color: black;
+        font-size: 1.6rem;
+        float: left;
+        margin: 5px -10px 0px 25px;
 
     }
-    &__top{
-        display: flex;
-        justify-content: flex-start;
-        flex-wrap: wrap;
-        align-items: center;
-        padding-top: 12px;
-        
-        background-color:white ;
-        &__arrow{
-            padding-left: 23px;
-            text-align: left;
-            font-size: 1.1rem;
-            width: 23%;
-        }
-        &__logo{
-            width: 47%;
-            height: 50px;
-        }
-        &__img{
-            width: 100%;
-            height: 20rem;
-            margin-bottom: -4rem;
-        }
+    &__img{
+        object-fit: cover;
+        height: 250px;
     }
 }
