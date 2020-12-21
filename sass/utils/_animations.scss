@@ -84,3 +84,28 @@
 }
 
 /*end heart animation*/
+
+/*validation menu*/
+
+@keyframes slide {
+    0% {
+        width: 0%;
+
+
+    }
+
+    100% {
+        width: 20%;
+        opacity: 1;
+    }
+}
+
+@keyframes jump {
+    0% {
+        transform: rotate(-180deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}

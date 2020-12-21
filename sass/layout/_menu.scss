@@ -10,14 +10,14 @@
         padding: 30px 20px;
         margin-top: -64px;
         border-radius: 35px 35px 0px 0px;
-        background-color: $light_ground_color;
+        background-color: $ground_colour;
         font-family: 'shrikhand';
         font-size: 1.8rem;
 
-   
+
     }
 
-    &__like{
+    &__like {
         display: flex;
         font-size: 0.9rem;
         align-items: center;
@@ -29,49 +29,66 @@
 
         &--h3 {
             font-family: 'roboto';
-            padding: 15px 15px 5px 15px;
+            padding: 0px 15px 0px 20px;
 
             &::after {
                 content: "";
-                width: 45px;
+                width: 40px;
                 display: block;
                 height: 3px;
                 background-color: $tertiary_colour;
+                margin-top: 5px;
                 bottom: -5px;
             }
         }
 
         &__flat {
             width: auto;
-            padding: 15px;
-            margin: 10px;
+            margin: 16px;
             border-radius: 15px;
             box-shadow: 2px 2px 5px 2px #dddddd;
             font-family: 'roboto';
             font-size: 1rem;
             background-color: white;
             display: flex;
-            flex-flow: row wrap;
             justify-content: space-between;
-            align-items: flex-end;
-            position: relative;
-            overflow: hidden;
-             & :nth-child(1) {
-                 flex: 1 100%;
-                 margin-right: 0px;
-                 overflow: hidden;
-                 white-space: nowrap;
-                 text-overflow: ellipsis;
-             }
-            & :nth-child(2) {
-                width: 80%;
-                overflow: hidden;
-                white-space: nowrap;
-                text-overflow: ellipsis;
-                font-size: 0.8rem;
+
+            &--text {
+                padding: 10px;
+                width: 100%;
+                display: flex;
+                flex-flow: row wrap;
+                align-items: center;
+                justify-content: space-between;
+
+                & :nth-child(1) {
+                    flex: 1 100%;
+                    margin-right: 0px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    font-weight: bold;
+                    font-size: 1.1rem;
+                }
+
+                & :nth-child(2) {
+                    width: 80%;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    font-size: 0.85rem;
+                }
             }
 
-            
+            &:hover .validation {
+                animation: slide 0.5s ease 1 forwards;
+            }
+
+            &:hover .check {
+                animation: jump 0.5s  ease 1 forwards;
+            }
+
+
         }
 
     }
@@ -92,4 +109,25 @@
             opacity: 90%;
         }
     }
+}
+
+
+.validation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0%;
+    height: 70px;
+    opacity: 0;
+    background-color: darkcyan;
+    border-radius: 0 15px 15px 0;
+}
+
+
+.check {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: auto;
+    font-size: 1.3em;
 }
