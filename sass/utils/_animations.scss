@@ -1,4 +1,4 @@
-/*spinner*/
+//spinner
 @keyframes alternatecolor {
     to {
         box-shadow:
@@ -44,9 +44,9 @@
     }
 }
 
-/*end spinner*/
+//end spinner
 
-/*Heart animation*/
+//Heart animation
 
 .full-heart {
     position: absolute;
@@ -83,9 +83,9 @@
     }
 }
 
-/*end heart animation*/
+//end heart animation
 
-/*validation menu*/
+//validation menu
 
 @keyframes slide {
     0% {
@@ -107,5 +107,17 @@
 
     100% {
         transform: rotate(0deg);
+    }
+}
+
+// Appearance of the menus
+
+@keyframes itemAppear {
+    0% {
+        transform: scale(0)
+    }
+
+    100% {
+        transform: scale(1);
     }
 }

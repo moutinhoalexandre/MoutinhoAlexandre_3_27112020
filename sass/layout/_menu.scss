@@ -52,6 +52,10 @@
             background-color: white;
             display: flex;
             justify-content: space-between;
+            animation: itemAppear .6s;
+            animation-timing-function: cubic-bezier(.5, 1.58, .34, .82);
+            animation-fill-mode: both;
+            transform: scale(0);
 
             &--text {
                 padding: 10px;
@@ -85,7 +89,7 @@
             }
 
             &:hover .check {
-                animation: jump 0.5s  ease 1 forwards;
+                animation: jump 0.5s ease 1 forwards;
             }
 
 
@@ -130,4 +134,12 @@
     color: white;
     margin: auto;
     font-size: 1.3em;
+}
+
+//function appearance of the menus
+
+@for $i from 0 to 10 {
+    .delay-#{$i} {
+        animation-delay: #{$i/5}s;
+    }
 }
