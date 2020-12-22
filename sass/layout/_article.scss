@@ -1,17 +1,28 @@
 .article {
     font-family: 'roboto';
     width: auto;
-    padding-top: 38px;
+    padding-top: 14px;
     padding-left: 19px;
     padding-right: 19px;
     padding-bottom: 46px;
     background-color: $light_ground_color;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
 
     &__h2 {
         font-size: 1.5rem;
         font-weight: bold;
         padding-top: 15px;
         padding-bottom: 22px;
+        display: flex;
+        flex: 1 0 100%;
+        text-align: left;
+    }
+    &__card{
+       width: 100%;
+        max-width: 350px;
     }
 
     &__figure {
@@ -22,13 +33,15 @@
         margin-bottom: 17px;
         border-radius: 20px;
         background-color: white;
+        position: relative;
 
         &--new {
             border-radius: 5%;
             padding: 5px 10px;
+            position: absolute;
             right: 9%;
             margin-top: 13px;
-            position: absolute;
+            
             background-color: $tertiary_colour;
             color: darken($color: $tertiary_colour, $amount: 40%);
             font-size: 0.9rem;
@@ -61,6 +74,21 @@
         &__like {
             position: absolute;
             right: 3em;
+        }
+    }
+}
+
+@media screen and (min-width: 799px){
+    .article{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        &__h2{
+            flex: 1 100%;
+        }
+        &__card{
+            width: 40%;
+            margin: 20px;
         }
     }
 }
