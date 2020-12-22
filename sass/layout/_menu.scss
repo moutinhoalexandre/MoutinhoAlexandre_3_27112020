@@ -138,7 +138,7 @@
 
 //function appearance of the menus
 
-@for $i from 0 to 10 {
+@for $i from 0 to 11 {
     .delay-#{$i} {
         animation-delay: #{$i/5}s;
     }
