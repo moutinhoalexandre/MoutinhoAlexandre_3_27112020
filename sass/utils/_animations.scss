@@ -24,6 +24,7 @@
 
     to {
         transform: rotate(450deg);
+        visibility: hidden;
     }
 }
 
@@ -36,11 +37,13 @@
     99% {
         visibility: visible;
         opacity: 0.6;
+        
     }
 
     100% {
         visibility: hidden;
         opacity: 0;
+
     }
 }
 
