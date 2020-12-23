@@ -28,21 +28,21 @@
     }
 }
 
-@keyframes visibility-filter {
+@keyframes visibility-body {
     0% {
-        visibility: visible;
-        opacity: 0.6;
+        
+        opacity: 0;
     }
 
     99% {
-        visibility: visible;
-        opacity: 0.6;
+        
+        opacity: 0.8;
         
     }
 
     100% {
-        visibility: hidden;
-        opacity: 0;
+        
+        opacity: 1;
 
     }
 }
@@ -50,17 +50,20 @@
 @keyframes visibility-spinner {
     0% {
         visibility: visible;
+        opacity: 0.8;
         
     }
 
     99% {
         visibility: visible;
+        opacity: 0.8;
         
 
     }
 
     100% {
         visibility: hidden;
+        opacity: 0;
         
 
     }
