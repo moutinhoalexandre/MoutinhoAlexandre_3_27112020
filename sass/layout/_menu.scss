@@ -64,6 +64,7 @@
                 flex-flow: row wrap;
                 align-items: center;
                 justify-content: space-between;
+                overflow: hidden;
 
                 & :nth-child(1) {
                     flex: 1 100%;
@@ -71,6 +72,7 @@
                     overflow: hidden;
                     white-space: nowrap;
                     text-overflow: ellipsis;
+                    white-space: normal;
                     font-weight: bold;
                     font-size: 1.1rem;
                 }
@@ -107,6 +109,7 @@
         box-shadow: 2px 2px 5px 2px #dddddd;
         margin-top: 40px;
         margin-bottom: 40px;
+        cursor: pointer;
 
         &:hover {
             box-shadow: 2px 2px 5px 2px #B9B9B9;
@@ -121,7 +124,7 @@
     justify-content: center;
     align-items: center;
     width: 0%;
-    height: 70px;
+    // height: 70px;
     opacity: 0;
     background-color: darkcyan;
     border-radius: 0 15px 15px 0;
@@ -142,4 +145,25 @@
     .delay-#{$i} {
         animation-delay: #{$i/5}s;
     }
+}
+
+@media screen and (min-width: 799px){
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &__h2{
+        flex: 1 0 100%;
+    }
+    &__submenu{
+        width: 33%;
+    }
+    &__button{
+        flex: 1 0 10%;
+        justify-content: center;
+        display: flex;
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+}    
 }
