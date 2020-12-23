@@ -31,18 +31,37 @@
 @keyframes visibility-filter {
     0% {
         visibility: visible;
-        opacity: 0.6;
+        opacity: 0.7;
     }
 
     99% {
         visibility: visible;
-        opacity: 0.6;
+        opacity: 0.7;
         
     }
 
     100% {
         visibility: hidden;
         opacity: 0;
+
+    }
+}
+
+@keyframes visibility-spinner {
+    0% {
+        visibility: visible;
+        
+    }
+
+    99% {
+        visibility: visible;
+        
+
+    }
+
+    100% {
+        visibility: hidden;
+        
 
     }
 }
