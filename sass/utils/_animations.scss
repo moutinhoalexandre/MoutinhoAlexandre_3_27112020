@@ -30,18 +30,18 @@
 
 @keyframes visibility-body {
     0% {
-        
+
         opacity: 0;
     }
 
     99% {
-        
+
         opacity: 0.8;
-        
+
     }
 
     100% {
-        
+
         opacity: 1;
 
     }
@@ -51,20 +51,20 @@
     0% {
         visibility: visible;
         opacity: 0.8;
-        
+
     }
 
     99% {
         visibility: visible;
         opacity: 0.8;
-        
+
 
     }
 
     100% {
         visibility: hidden;
         opacity: 0;
-        
+
 
     }
 }
@@ -80,6 +80,7 @@
     top: 0;
     background: linear-gradient(#FF79DA, #9356DC);
     background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     opacity: 0;
     font-size: 1em;
@@ -98,6 +99,7 @@
     &:hover {
         background: linear-gradient(#FF79DA, #9356DC);
         background-clip: text;
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke: 0px white;
 

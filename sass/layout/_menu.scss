@@ -147,23 +147,26 @@
     }
 }
 
-@media screen and (min-width: 799px){
-.menu{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    &__h2{
-        flex: 1 0 100%;
-    }
-    &__submenu{
-        width: 33%;
-    }
-    &__button{
-        flex: 1 0 10%;
-        justify-content: center;
+@media screen and (min-width: 799px) {
+    .menu {
         display: flex;
-        margin-left: 40%;
-        margin-right: 40%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        &__h2 {
+            flex: 1 0 100%;
+        }
+
+        &__submenu {
+            width: 33%;
+        }
+
+        &__button {
+            flex: 1 0 10%;
+            justify-content: center;
+            display: flex;
+            margin-left: 40%;
+            margin-right: 40%;
+        }
     }
-}    
 }

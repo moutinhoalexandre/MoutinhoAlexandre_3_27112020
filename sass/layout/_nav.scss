@@ -68,12 +68,13 @@
     }
 }
 
-@media screen and (min-width: 799px){
-.nav__ul{
-    flex-flow: row;
-    justify-content: space-around;
-    &--li{
-        width: 30%;
+@media screen and (min-width: 799px) {
+    .nav__ul {
+        flex-flow: row;
+        justify-content: space-around;
+
+        &--li {
+            width: 30%;
+        }
     }
-}    
 }
