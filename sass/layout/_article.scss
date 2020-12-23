@@ -7,14 +7,14 @@
     padding-bottom: 46px;
     background-color: $light_ground_color;
     display: flex;
-    flex-flow: column;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 
     &__h2 {
         font-size: 1.5rem;
         font-weight: bold;
-        padding-top: 15px;
+        padding-top: 40px;
         padding-bottom: 22px;
         display: flex;
         flex: 1 0 100%;
@@ -23,6 +23,8 @@
     &__card{
        width: 100%;
         max-width: 350px;
+        transform: scale(1);
+
     }
 
     &__figure {
