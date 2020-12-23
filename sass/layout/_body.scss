@@ -1,10 +1,10 @@
-.contenair{
+.contenair {
     position: relative;
     z-index: 2;
     animation: visibility-spinner 3s linear 1 forwards;
 }
 
-.body{
+.body {
     position: absolute;
     z-index: 1;
     animation: visibility-body 3s linear 1 forwards;
