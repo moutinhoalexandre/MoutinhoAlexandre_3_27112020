@@ -2,6 +2,7 @@
     width: auto;
     background-color: $ground_colour;
     text-align: center;
+    overflow: hidden;
 
     &__h2 {
         position: relative;
@@ -26,6 +27,8 @@
 
     &__submenu {
         text-align: left;
+        overflow: hidden;
+
 
         &--h3 {
             font-family: 'roboto';
@@ -52,6 +55,7 @@
             background-color: white;
             display: flex;
             justify-content: space-between;
+            overflow: hidden;
             animation: itemAppear .6s;
             animation-timing-function: cubic-bezier(.5, 1.58, .34, .82);
             animation-fill-mode: both;
@@ -87,11 +91,11 @@
             }
 
             &:hover .validation {
-                animation: slide 0.5s ease 1 forwards;
+                width: 20%;
             }
 
-            &:hover .check {
-                animation: jump 0.5s ease 1 forwards;
+            &:hover .validation__check {
+                transform: rotateZ(360deg);
             }
 
 
@@ -124,20 +128,26 @@
     justify-content: center;
     align-items: center;
     width: 0%;
-    // height: 70px;
-    opacity: 0;
+    overflow: hidden;
     background-color: $tertiary_colour;
     border-radius: 0 15px 15px 0;
+    z-index: 3;
+    transition-duration: 1s;
+
+    &__check{
+        display: flex;
+        align-items: center;
+        color: white;
+        margin: auto;
+        font-size: 1.3em;
+        overflow: hidden;
+        transition-duration: 1s;
+    }
+
 }
 
 
-.check {
-    display: flex;
-    align-items: center;
-    color: white;
-    margin: auto;
-    font-size: 1.3em;
-}
+
 
 //function appearance of the menus
 
