@@ -37,3 +37,19 @@ Here is a list of the technical points discussed in the briefing and which must 
 - [x] On arrival on the page, the dishes will appear progressively with a slight delay in time. They can either appear one by one, or in groups "Starter", "Main course" and "Dessert". An example of the expected effect is provided.
 - [x] The visitor can add the dishes he wants to his order by clicking on them. A small tick appears to the right of the dish. This tick should slide from the right to the left. For this first version, the effect can appear on the hover instead of the click. If the title of the dish is too long, it should be trimmed with ellipsis.
 ## Site mockups
+
+Animation - Apparition progressive :
+
+[](https://github.com/moutinhoalexandre/MoutinhoAlexandre_3_27112020/blob/main/public/sources/Animations/Animation%20-%20Page%20Menu%20-%20Apparition%20progressive.mp4)
+
+Animation - Sélection d'un plat:
+
+[](https://github.com/moutinhoalexandre/MoutinhoAlexandre_3_27112020/blob/main/public/sources/Animations/Animation%20-%20Page%20Menu%20-%20S%C3%A9lection%20d_un%20plat.mp4)
+
+Accueil :
+
+[](https://github.com/moutinhoalexandre/MoutinhoAlexandre_3_27112020/blob/main/public/sources/Accueil.png)
+
+Exemple d'un restaurant:
+
+[](https://github.com/moutinhoalexandre/MoutinhoAlexandre_3_27112020/blob/main/public/sources/Menu%20-%20%C3%80%20la%20fran%C3%A7aise.png)
