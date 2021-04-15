@@ -40,11 +40,11 @@ Here is a list of the technical points discussed in the briefing and which must 
 
 Animation - Apparition progressive :
 
-![](https://github.com/moutinhoalexandre/MoutinhoAlexandre_3_27112020/blob/main/public/sources/Animations/Animation%20-%20Page%20Menu%20-%20Apparition%20progressive.mp4)
+![](https://github.com/moutinhoalexandre/MoutinhoAlexandre_3_27112020/blob/main/public/sources/Animations/Animation%20-%20Page%20Menu%20-%20Apparition%20progressive.gif)
 
 Animation - Sélection d'un plat:
 
-![](https://github.com/moutinhoalexandre/MoutinhoAlexandre_3_27112020/blob/main/public/sources/Animations/Animation%20-%20Page%20Menu%20-%20S%C3%A9lection%20d_un%20plat.mp4)
+![](https://github.com/moutinhoalexandre/MoutinhoAlexandre_3_27112020/blob/main/public/sources/Animations/Animation%20-%20Page%20Menu%20-%20S%C3%A9lection%20d_un%20plat.gif)
 
 Accueil :
 
